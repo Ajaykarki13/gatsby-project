@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from 'gatsby'
 import {container} from '../components/styles.module.css'
+import Header from "../components/Header"
 const pageStyles = {
   color: "#232129",
   padding: 96,
@@ -82,6 +83,7 @@ const badgeStyle = {
 const IndexPage = () => {
   return (
     <main classname={container}>
+      <Header/>
       <h1 style={headingStyles}>
         Congratulations Ajay Karki
         <br />
