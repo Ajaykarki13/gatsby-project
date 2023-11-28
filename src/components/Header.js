@@ -6,6 +6,7 @@ function Header() {
     justifyContent:'space-around',
     border: '1px solid black', 
     padding: '15px', 
+    backgroundColor:'grey'
   };
 
   return (
